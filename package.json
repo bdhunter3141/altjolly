@@ -20,6 +20,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0",
     "prettier": "2.0.5"
   },
   "keywords": [
@@ -41,5 +42,10 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
